@@ -1,0 +1,7 @@
+/* userChrome.css */
+
+/* Slight grey background on bookmark toolbar folder hover */
+#PlacesToolbarItems .bookmark-item:hover {
+    background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+    border-radius: 4px;
+}
